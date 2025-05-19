@@ -44,7 +44,6 @@ else:
  if food_choice == 4: food_option = "none"  
  if food_choice == " ": print("\nInvalid selection. Changing to 'Standard'.")   
 
- 
 #Everything added together
  total_cost = activity_cost + transport_cost   
- print(f"\n Name of user {first_name} (Age {current_age}):"f" Activity: {activity_name}"f" Transport:{' Included' if transport_cost > 0 else ' Not included '}"f" Food: {food_option}"f" Total cost: ${total_cost}") 
+ print(f"\n Name of user: {first_name} (Age: {current_age}):"f" Activity: {activity_name}"f" Transport:{' Included' if transport_cost > 0 else ' Not included '}"f" Food: {food_option}"f" Total cost: ${total_cost}") 
