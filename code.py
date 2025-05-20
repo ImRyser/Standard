@@ -1,11 +1,10 @@
 #entering name
 first_name = input("What is your name: ")   
-current_age = int(input("What is your age: "))
 
 #age of person
+current_age = int(input("What is your age: "))
 if current_age >= 18: print("You're too old")    
-elif current_age == 1 or 2 or 3 or 4 or 5: print("You are too young")  
-elif current_age <= 0: print("Invalid age range")
+elif current_age <= 4: print("You are too young")  
 else:   
  print("You are able to go")
 
