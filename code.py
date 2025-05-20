@@ -1,11 +1,13 @@
 #entering name
 first_name = input("What is your name: ")   
 current_age = int(input("What is your age: "))
+
 #age of person
 if current_age >= 18: print("You're too old")    
-elif current_age <= 5: print("You are too young")  
+elif current_age == 1 or 2 or 3 or 4 or 5: print("You are too young")  
+elif current_age <= 0: print("Invalid age range")
 else:   
- print("You are able to go")   
+ print("You are able to go")
 
 #printing camp choices
  activities = { "1": ("Cultural immersion", 5, "easy", 800), "2": ("Kayaking and pancakes", 3, "moderate", 400), "3": ("Mountain biking", 4, "difficult", 900), }   
